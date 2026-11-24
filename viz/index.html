@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yachay Tech Collaboration Network</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-head">
+    <div class="titles">
+      <h1>How has Yachay Tech's international collaboration network evolved since 2014?</h1>
+      <p class="subtitle">Is its cumulative geographic reach still growing while each year's collaboration
+        concentrates on fewer partners and a smaller share of international papers?</p>
+    </div>
+    <p class="source">Source: Scopus, afiliación Yachay Tech (AF-ID 60105012) · nodes = countries ·
+      links = co-authored documents (full counting)</p>
+  </header>
+
+  <nav class="controls" aria-label="Controls">
+    <div class="group">
+      <span class="label">Mode</span>
+      <div class="seg" role="group" data-key="mode">
+        <button data-value="annual">Annual</button>
+        <button data-value="cumulative">Cumulative</button>
+      </div>
+    </div>
+    <div class="group">
+      <span class="label">View</span>
+      <div class="seg" role="group" data-key="view">
+        <button data-value="map">Map</button>
+        <button data-value="network">Network</button>
+      </div>
+    </div>
+    <div class="group timeline">
+      <button id="play" class="play" aria-label="Play">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path id="play-icon" d="M7 4l13 8-13 8z"/></svg>
+      </button>
+      <div class="slider-wrap">
+        <input id="year-slider" type="range" min="2014" max="2026" step="1" value="2014" aria-label="Year">
+        <div id="year-ticks" class="ticks"></div>
+      </div>
+    </div>
+    <div class="group">
+      <span class="label">Color</span>
+      <div class="seg" role="group" data-key="colorBy">
+        <button data-value="region">Region</button>
+        <button data-value="community">Community</button>
+      </div>
+    </div>
+    <label class="check">
+      <input id="no-mega" type="checkbox">
+      <span>Exclude mega-collaborations <small>(≥ 10 countries)</small></span>
+    </label>
+  </nav>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="legend" id="legend" aria-label="Legend"></div>
+      <div class="theme-toggle">
+        <span class="label">Theme</span>
+        <div class="seg" role="group" data-key="theme">
+          <button data-value="dark">☾ Dark</button>
+          <button data-value="light">☀ Light</button>
+        </div>
+      </div>
+    </aside>
+
+    <section class="stage" id="stage">
+      <div class="year-mark"><span id="year-big">2014</span><span id="mode-big" class="mode-big">cumulative</span></div>
+      <svg id="map" class="view" viewBox="0 0 1280 760" preserveAspectRatio="xMidYMid meet" role="img"
+           aria-label="World map of Yachay Tech partner countries"></svg>
+      <svg id="network" class="view" viewBox="0 0 1280 760" preserveAspectRatio="xMidYMid meet" role="img"
+           aria-label="Force-directed network of partner countries"></svg>
+      <div class="loading" id="loading">Loading data…</div>
+      <div class="zoom-ctrl" role="group" aria-label="Zoom">
+        <button id="zoom-in" title="Zoom in">+</button>
+        <button id="zoom-out" title="Zoom out">−</button>
+        <button id="zoom-reset" title="Reset view">Reset</button>
+      </div>
+      <div class="zoom-hint">Scroll to zoom · drag to pan · double-click to zoom in</div>
+    </section>
+
+    <aside class="panel" id="panel">
+      <div class="panel-head">
+        <div>
+          <div class="panel-year" id="panel-year">2014</div>
+          <div class="panel-sub" id="panel-sub"></div>
+        </div>
+        <span class="badge" id="partial-badge" hidden>Partial year · data up to Nov 2026</span>
+      </div>
+
+      <div class="cards">
+        <div class="card"><div class="card-label">Partner countries</div>
+          <div class="card-value" id="c-partners">–</div><div class="card-note" id="c-partners-note"></div></div>
+        <div class="card"><div class="card-label">Continents / regions</div>
+          <div class="card-value" id="c-continents">–</div><div class="card-note">of 6 world regions</div></div>
+        <div class="card"><div class="card-label">International documents</div>
+          <div class="card-value" id="c-intl">–</div><div class="card-note" id="c-intl-note"></div></div>
+        <div class="card"><div class="card-label">New partner countries</div>
+          <div class="card-value" id="c-new">–</div><div class="card-note new-list" id="c-new-note"></div></div>
+      </div>
+
+      <div class="sparks" id="sparks"></div>
+
+      <div class="top5">
+        <h2>Top 5 partners <small id="top-sub">by co-authored documents with Ecuador</small></h2>
+        <ol id="top5"></ol>
+      </div>
+    </aside>
+  </main>
+
+  <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

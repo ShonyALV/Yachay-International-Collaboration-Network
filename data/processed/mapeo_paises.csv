@@ -1,0 +1,109 @@
+texto_scopus,regla,pais,nombre_iso,iso3,iso_num,continente,afiliaciones
+United Arab Emirates,directo,United Arab Emirates,United Arab Emirates,ARE,784,Asia,17
+Argentina,directo,Argentina,Argentina,ARG,032,Latin America & Caribbean,101
+Armenia,directo,Armenia,Armenia,ARM,051,Asia,13
+Australia,directo,Australia,Australia,AUS,036,Oceania,212
+Austria,directo,Austria,Austria,AUT,040,Europe,54
+Belgium,directo,Belgium,Belgium,BEL,056,Europe,54
+Burkina Faso,directo,Burkina Faso,Burkina Faso,BFA,854,Africa,1
+Bangladesh,directo,Bangladesh,Bangladesh,BGD,050,Asia,1
+Bulgaria,directo,Bulgaria,Bulgaria,BGR,100,Europe,1
+Bahamas,directo,Bahamas,Bahamas,BHS,044,Latin America & Caribbean,1
+Bolivia,alias,Bolivia,"Bolivia, Plurinational State of",BOL,068,Latin America & Caribbean,18
+Brazil,directo,Brazil,Brazil,BRA,076,Latin America & Caribbean,209
+Brunei Darussalam,directo,Brunei,Brunei Darussalam,BRN,096,Asia,2
+Canada,directo,Canada,Canada,CAN,124,North America,110
+Switzerland,directo,Switzerland,Switzerland,CHE,756,Europe,47
+Chile,directo,Chile,Chile,CHL,152,Latin America & Caribbean,188
+China,directo,China,China,CHN,156,Asia,158
+Hong Kong,territorio,China,China,CHN,156,Asia,2
+Cote d'Ivoire,alias,Côte d'Ivoire,Côte d'Ivoire,CIV,384,Africa,2
+Cameroon,directo,Cameroon,Cameroon,CMR,120,Africa,7
+Democratic Republic Congo,alias,DR Congo,"Congo, The Democratic Republic of the",COD,180,Africa,2
+Congo,directo,Congo,Congo,COG,178,Africa,5
+Colombia,directo,Colombia,Colombia,COL,170,Latin America & Caribbean,251
+Costa Rica,directo,Costa Rica,Costa Rica,CRI,188,Latin America & Caribbean,8
+Cuba,directo,Cuba,Cuba,CUB,192,Latin America & Caribbean,28
+Czech Republic,alias,Czechia,Czechia,CZE,203,Europe,20
+Germany,directo,Germany,Germany,DEU,276,Europe,218
+Djibouti,directo,Djibouti,Djibouti,DJI,262,Africa,1
+Denmark,directo,Denmark,Denmark,DNK,208,Europe,23
+Dominican Republic,directo,Dominican Republic,Dominican Republic,DOM,214,Latin America & Caribbean,8
+Algeria,directo,Algeria,Algeria,DZA,012,Africa,15
+(afiliación de Yachay sin país),yachay_sin_pais,Ecuador,Ecuador,ECU,218,Latin America & Caribbean,10
+Ecuador,directo,Ecuador,Ecuador,ECU,218,Latin America & Caribbean,3309
+Egypt,directo,Egypt,Egypt,EGY,818,Africa,13
+Spain,directo,Spain,Spain,ESP,724,Europe,615
+Estonia,directo,Estonia,Estonia,EST,233,Europe,1
+Finland,directo,Finland,Finland,FIN,246,Europe,15
+Fiji,directo,Fiji,Fiji,FJI,242,Oceania,2
+France,directo,France,France,FRA,250,Europe,124
+French Guiana,territorio,France,France,FRA,250,Europe,2
+United Kingdom,directo,United Kingdom,United Kingdom,GBR,826,Europe,97
+Georgia,directo,Georgia,Georgia,GEO,268,Asia,2
+Greece,directo,Greece,Greece,GRC,300,Europe,12
+Guatemala,directo,Guatemala,Guatemala,GTM,320,Latin America & Caribbean,1
+Guyana,directo,Guyana,Guyana,GUY,328,Latin America & Caribbean,1
+Honduras,directo,Honduras,Honduras,HND,340,Latin America & Caribbean,1
+Croatia,directo,Croatia,Croatia,HRV,191,Europe,7
+Hungary,directo,Hungary,Hungary,HUN,348,Europe,19
+Indonesia,directo,Indonesia,Indonesia,IDN,360,Asia,23
+India,directo,India,India,IND,356,Asia,35
+Ireland,directo,Ireland,Ireland,IRL,372,Europe,5
+Iran,alias,Iran,"Iran, Islamic Republic of",IRN,364,Asia,3
+Iraq,directo,Iraq,Iraq,IRQ,368,Asia,18
+Iceland,directo,Iceland,Iceland,ISL,352,Europe,2
+Israel,directo,Israel,Israel,ISR,376,Asia,13
+Italy,directo,Italy,Italy,ITA,380,Europe,130
+Japan,directo,Japan,Japan,JPN,392,Asia,157
+Kazakhstan,directo,Kazakhstan,Kazakhstan,KAZ,398,Asia,3
+South Korea,alias,South Korea,"Korea, Republic of",KOR,410,Asia,32
+Laos,alias,Laos,Lao People's Democratic Republic,LAO,418,Asia,2
+Lebanon,directo,Lebanon,Lebanon,LBN,422,Asia,1
+Sri Lanka,directo,Sri Lanka,Sri Lanka,LKA,144,Asia,2
+Lithuania,directo,Lithuania,Lithuania,LTU,440,Europe,3
+Luxembourg,directo,Luxembourg,Luxembourg,LUX,442,Europe,1
+Latvia,directo,Latvia,Latvia,LVA,428,Europe,1
+Morocco,directo,Morocco,Morocco,MAR,504,Africa,28
+Madagascar,directo,Madagascar,Madagascar,MDG,450,Africa,4
+Mexico,directo,Mexico,Mexico,MEX,484,Latin America & Caribbean,230
+Myanmar,directo,Myanmar,Myanmar,MMR,104,Asia,1
+Malaysia,directo,Malaysia,Malaysia,MYS,458,Asia,16
+Nigeria,directo,Nigeria,Nigeria,NGA,566,Africa,2
+Netherlands,directo,Netherlands,Netherlands,NLD,528,Europe,71
+Norway,directo,Norway,Norway,NOR,578,Europe,14
+Nepal,directo,Nepal,Nepal,NPL,524,Asia,1
+New Zealand,directo,New Zealand,New Zealand,NZL,554,Oceania,12
+Pakistan,directo,Pakistan,Pakistan,PAK,586,Asia,4
+Panama,directo,Panama,Panama,PAN,591,Latin America & Caribbean,10
+Peru,directo,Peru,Peru,PER,604,Latin America & Caribbean,28
+Philippines,directo,Philippines,Philippines,PHL,608,Asia,5
+Papua New Guinea,directo,Papua New Guinea,Papua New Guinea,PNG,598,Oceania,1
+Poland,directo,Poland,Poland,POL,616,Europe,45
+Puerto Rico,directo,Puerto Rico,Puerto Rico,PRI,630,Latin America & Caribbean,5
+Portugal,directo,Portugal,Portugal,PRT,620,Europe,38
+Paraguay,directo,Paraguay,Paraguay,PRY,600,Latin America & Caribbean,4
+Qatar,directo,Qatar,Qatar,QAT,634,Asia,1
+Romania,directo,Romania,Romania,ROU,642,Europe,9
+Russian Federation,directo,Russia,Russian Federation,RUS,643,Europe,30
+Saudi Arabia,directo,Saudi Arabia,Saudi Arabia,SAU,682,Asia,25
+Sudan,directo,Sudan,Sudan,SDN,729,Africa,1
+Singapore,directo,Singapore,Singapore,SGP,702,Asia,32
+El Salvador,directo,El Salvador,El Salvador,SLV,222,Latin America & Caribbean,2
+Serbia,directo,Serbia,Serbia,SRB,688,Europe,2
+Suriname,directo,Suriname,Suriname,SUR,740,Latin America & Caribbean,3
+Slovakia,directo,Slovakia,Slovakia,SVK,703,Europe,9
+Slovenia,directo,Slovenia,Slovenia,SVN,705,Europe,2
+Sweden,directo,Sweden,Sweden,SWE,752,Europe,33
+Thailand,directo,Thailand,Thailand,THA,764,Asia,3
+Tunisia,directo,Tunisia,Tunisia,TUN,788,Africa,2
+Turkey,alias,Türkiye,Türkiye,TUR,792,Asia,7
+Taiwan,alias,Taiwan,"Taiwan, Province of China",TWN,158,Asia,3
+Tanzania,alias,Tanzania,"Tanzania, United Republic of",TZA,834,Africa,8
+Uganda,directo,Uganda,Uganda,UGA,800,Africa,3
+Uruguay,directo,Uruguay,Uruguay,URY,858,Latin America & Caribbean,8
+United States,directo,United States,United States,USA,840,North America,608
+Venezuela,alias,Venezuela,"Venezuela, Bolivarian Republic of",VEN,862,Latin America & Caribbean,267
+Viet Nam,directo,Vietnam,Viet Nam,VNM,704,Asia,3
+Vanuatu,directo,Vanuatu,Vanuatu,VUT,548,Oceania,1
+South Africa,directo,South Africa,South Africa,ZAF,710,Africa,77
