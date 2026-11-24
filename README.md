@@ -1,4 +1,4 @@
-# Quiz 2 — Temporal Graph Visualization of Scientific Collaboration at Yachay Tech
+# Temporal Graph Visualization of Scientific Collaboration at Yachay Tech
 
 Red de **colaboración internacional entre países** construida a partir de las publicaciones de
 Yachay Tech University en Scopus (AF-ID 60105012), analizada como grafo temporal en dos modos:
